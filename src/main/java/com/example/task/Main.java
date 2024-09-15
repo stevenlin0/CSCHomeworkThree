@@ -34,17 +34,7 @@ public class Main extends Application {
         Image mazeImage2 = new Image(getClass().getResource("/maze2.png").toExternalForm());
         ImageView mazeView2 = new ImageView(mazeImage2);
 
-//        int[][] grid = new int[width][height];
-//        for (int y = 0; y < height; y++) {
-//            for (int x = 0; x < width; x++) {
-//                Color color = mazeImage.getPixelReader().getColor(x, y);
-//                if (isWall(color)) {
-//                    grid[x][y] = 0;
-//                } else {
-//                    grid[x][y] = 1;
-//                }
-//            }
-//        }
+
 //This initializes the droid bot
         Robot robot = new Robot();
         Car car = new Car();
